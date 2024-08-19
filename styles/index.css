@@ -63,10 +63,14 @@ nav {
 
     li.active {
         font-family: Forever Freedom;
-        background-color: var(--red);
+        /* background-color: var(--red); */
         color: var(--white);
-        background-image: url(/images/dot-grid.png);
+        /* background-image: url(/images/dot-grid.png); */
         background-blend-mode: multiply;
+    }
+
+    li.active::before {
+        transform:translateX(0);
     }
 }
 
