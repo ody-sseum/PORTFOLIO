@@ -14,6 +14,15 @@ nav_lst.forEach((li, index) => {
     });
 });
 
+document.querySelectorAll(".card-body > h1").forEach(el => {
+    var len = el.innerHTML.length;
+    if (len > 17) {
+        el.style.fontSize = ((len / 17)*4.5) + "em";
+        console.log(len);
+        console.log(el.style.fontSize);
+    }
+});
+
 function moveToSection(location) {
     document.getElementById(location).scrollIntoView({behavior: 'smooth'});
 };

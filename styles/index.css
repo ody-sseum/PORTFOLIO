@@ -70,7 +70,7 @@ nav {
     }
 
     li.active::before {
-        transform:translateX(0);
+        transform: translateX(0);
     }
 }
 
@@ -184,6 +184,35 @@ main {
     }
 
     section.portfolio {
+        .portfolio-card {
+            display: grid;
+            grid-template-columns: 0.1fr 0.4fr 0.5fr;
+            border: 1px solid var(--black);
+            margin-top: 1rem;
+            background-color: #fff;
+            min-height: 20%;
+            
+            > h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: var(--black);
+                color: var(--white);
+                height: 100%;
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+            }
 
+            .card-img {
+                background-image: url(/images/pokemon-go.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .card-body {
+                padding: 1em;
+            }
+        }
     }
 }
