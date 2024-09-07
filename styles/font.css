@@ -1,19 +1,19 @@
 @font-face {
     font-family: Aileron Light;
-    src: url(/fonts/aileron/Aileron-Light.otf);
+    src: url(fonts/aileron/Aileron-Light.otf);
 }
 
 @font-face {
     font-family: Aileron Thin;
-    src: url(/fonts/aileron/Aileron-Thin.otf);
+    src: url(fonts/aileron/Aileron-Thin.otf);
 }
 
 @font-face {
     font-family: Forever Freedom;
-    src: url(/fonts/forever-freedom/Forever\ Freedom\ Regular.otf);
+    src: url(fonts/forever-freedom/Forever\ Freedom\ Regular.otf);
 }
 
 @font-face {
     font-family: Forever Freedom Outline;
-    src: url(/fonts/forever-freedom/Forever\ Freedom\ Outline.otf);
+    src: url(fonts/forever-freedom/Forever\ Freedom\ Outline.otf);
 }
