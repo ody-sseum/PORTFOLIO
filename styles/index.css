@@ -48,7 +48,7 @@ nav {
         background-color: var(--red);
         z-index: -1;
         transform: translateX(-100%);
-        background-image: url(/images/dot-grid.png);
+        background-image: url('../images/dot-grid.png');
         background-blend-mode: multiply;
     }
 
@@ -81,7 +81,7 @@ main {
     padding: 1rem;
     gap: 1rem;
     overflow-y: scroll;
-    background: url('images/dot-grid.png');
+    background: url('../images/dot-grid.png');
 
     section {
         h1 {
@@ -166,7 +166,7 @@ main {
                     border: 1px solid var(--black);
                     padding: 1rem;
                     background-color: #fff;
-                    background: url('images/dot-grid.png');
+                    background: url('../images/dot-grid.png');
                     cursor: pointer;
                     transition: 0.2s all ease-in-out;
                     box-shadow: 0px 0px 0px 0px var(--red);
@@ -205,7 +205,7 @@ main {
             }
 
             .card-img {
-                background-image: url('images/pokemon-go.png');
+                background-image: url('../images/pokemon-go.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
