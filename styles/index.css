@@ -75,6 +75,7 @@ nav {
 }
 
 main {
+    height: auto;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -190,7 +191,7 @@ main {
             border: 1px solid var(--black);
             margin-top: 1rem;
             background-color: #fff;
-            min-height: 20%;
+            /* min-height: 20%; */
             
             > h1 {
                 display: flex;
