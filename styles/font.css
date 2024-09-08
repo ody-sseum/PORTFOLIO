@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Aileron Light';
-    src: url('/fonts/aileron/Aileron-Light.otf') format('opentype');
+    src: url('fonts/aileron/Aileron-Light.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Aileron Thin';
-    src: url('/fonts/aileron/Aileron-Thin.otf') format('opentype');
+    src: url('fonts/aileron/Aileron-Thin.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Forever Freedom';
-    src: url('/fonts/forever-freedom/Forever-Freedom-Regular.otf') format('opentype');
+    src: url('fonts/forever-freedom/Forever-Freedom-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Forever Freedom Outline';
-    src: url('/fonts/forever-freedom/Forever-Freedom-Outline.otf') format('opentype');
+    src: url('fonts/forever-freedom/Forever-Freedom-Outline.otf') format('opentype');
 }
