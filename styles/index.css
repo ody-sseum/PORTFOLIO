@@ -88,7 +88,7 @@ main {
             width: 100%;
             height: fit-content;
             font-family: Forever Freedom;
-            font-size: 6rem;
+            font-size: clamp(5.5rem, 7.5vw, 8rem);
             font-weight: 100;
             line-height: 1;
             color: var(--black);
@@ -178,7 +178,7 @@ main {
                 
                 .certi-card:hover {
                     transform: translate(5%, -5%);
-                    box-shadow: -15px 15px 0px 0px var(--red);
+                    box-shadow: -10px 15px 0px 0px var(--red);
                 }
             }
         }

@@ -3,9 +3,3 @@
     --white: #F4F3F2;
     --red: #73262C;
 }
-
-[data-theme="dark"] {
-    --black: #F4F3F2;
-    --white: #1E1E1E;
-    --red: #73262C;
-}
